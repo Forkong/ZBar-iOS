@@ -16,5 +16,7 @@ ZBar从2012年之后就没有更新过了，所以在iOS上，如果使用ZBar�
    - CoreVideo.framework
    - CoreMedia.framework
    - AVFoundation.framework
+   
+
 2. 将ZBar文件夹拖拽或者拷贝到你的工程目录下面
 3. 参照ZBar官方给的Demo即可正常使用

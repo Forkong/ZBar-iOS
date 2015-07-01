@@ -12,10 +12,9 @@
 
 步骤：
 1. 在你的项目中加入下面的库：
-	   - libiconv.dylib
-	   - CoreVideo.framework
-	   - CoreMedia.framework
-	   - AVFoundation.framework
-	 
+        libiconv.dylib
+	CoreVideo.framework
+	CoreMedia.framework
+	AVFoundation.framework
 2. 将ZBarSDK文件夹拖拽或者拷贝到你的工程目录下面
 3. 参照ZBar官方给的[Demo](https://github.com/ZBar/ZBar/tree/master/iphone/examples)即可正常使用

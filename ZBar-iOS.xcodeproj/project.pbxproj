@@ -14,29 +14,29 @@
 		794CA6641B42C7E500CE72DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794CA6631B42C7E500CE72DB /* Images.xcassets */; };
 		794CA6671B42C7E500CE72DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 794CA6651B42C7E500CE72DB /* LaunchScreen.xib */; };
 		794CA6731B42C7E500CE72DB /* ZBar_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6721B42C7E500CE72DB /* ZBar_iOSTests.m */; };
-		794CA6CA1B42C80100CE72DB /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6811B42C80100CE72DB /* config.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses"; }; };
+		794CA6CA1B42C80100CE72DB /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6811B42C80100CE72DB /* config.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-logical-op-parentheses -Wno-tautological-compare"; }; };
 		794CA6CB1B42C80100CE72DB /* codabar.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6841B42C80100CE72DB /* codabar.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses"; }; };
 		794CA6CC1B42C80100CE72DB /* code128.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6861B42C80100CE72DB /* code128.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses"; }; };
 		794CA6CD1B42C80100CE72DB /* code39.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6881B42C80100CE72DB /* code39.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses"; }; };
 		794CA6CE1B42C80100CE72DB /* code93.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA68A1B42C80100CE72DB /* code93.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses"; }; };
-		794CA6CF1B42C80100CE72DB /* databar.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA68C1B42C80100CE72DB /* databar.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses"; }; };
-		794CA6D01B42C80100CE72DB /* ean.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA68E1B42C80100CE72DB /* ean.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses"; }; };
+		794CA6CF1B42C80100CE72DB /* databar.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA68C1B42C80100CE72DB /* databar.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-logical-op-parentheses -Wno-tautological-compare"; }; };
+		794CA6D01B42C80100CE72DB /* ean.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA68E1B42C80100CE72DB /* ean.c */; settings = {COMPILER_FLAGS = "-Wno-logical-not-parentheses"; }; };
 		794CA6D11B42C80100CE72DB /* i25.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6901B42C80100CE72DB /* i25.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses"; }; };
 		794CA6D21B42C80100CE72DB /* qr_finder.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6921B42C80100CE72DB /* qr_finder.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses"; }; };
-		794CA6D31B42C80100CE72DB /* decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6941B42C80100CE72DB /* decoder.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-tautological-compare"; }; };
-		794CA6D41B42C80100CE72DB /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6961B42C80100CE72DB /* error.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-tautological-compare"; }; };
-		794CA6D51B42C80100CE72DB /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6981B42C80100CE72DB /* image.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses"; }; };
-		794CA6D61B42C80100CE72DB /* img_scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA69A1B42C80100CE72DB /* img_scanner.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses"; }; };
-		794CA6D71B42C80100CE72DB /* bch15_5.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA69E1B42C80100CE72DB /* bch15_5.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses"; }; };
-		794CA6D81B42C80100CE72DB /* binarize.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6A01B42C80100CE72DB /* binarize.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses"; }; };
-		794CA6D91B42C80100CE72DB /* isaac.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6A21B42C80100CE72DB /* isaac.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses"; }; };
-		794CA6DA1B42C80100CE72DB /* qrdec.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6A41B42C80100CE72DB /* qrdec.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-logical-op-parentheses -Wno-bitwise-op-parentheses"; }; };
-		794CA6DB1B42C80100CE72DB /* qrdectxt.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6A61B42C80100CE72DB /* qrdectxt.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses"; }; };
-		794CA6DC1B42C80100CE72DB /* rs.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6A71B42C80100CE72DB /* rs.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-logical-op-parentheses"; }; };
-		794CA6DD1B42C80100CE72DB /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6A91B42C80100CE72DB /* util.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses"; }; };
+		794CA6D31B42C80100CE72DB /* decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6941B42C80100CE72DB /* decoder.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-logical-op-parentheses -Wno-tautological-compare"; }; };
+		794CA6D41B42C80100CE72DB /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6961B42C80100CE72DB /* error.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-logical-op-parentheses -Wno-tautological-compare"; }; };
+		794CA6D51B42C80100CE72DB /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6981B42C80100CE72DB /* image.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-logical-op-parentheses -Wno-tautological-compare"; }; };
+		794CA6D61B42C80100CE72DB /* img_scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA69A1B42C80100CE72DB /* img_scanner.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-logical-op-parentheses -Wno-tautological-compare"; }; };
+		794CA6D71B42C80100CE72DB /* bch15_5.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA69E1B42C80100CE72DB /* bch15_5.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-logical-op-parentheses -Wno-tautological-compare"; }; };
+		794CA6D81B42C80100CE72DB /* binarize.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6A01B42C80100CE72DB /* binarize.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-logical-op-parentheses -Wno-tautological-compare"; }; };
+		794CA6D91B42C80100CE72DB /* isaac.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6A21B42C80100CE72DB /* isaac.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-logical-op-parentheses -Wno-tautological-compare"; }; };
+		794CA6DA1B42C80100CE72DB /* qrdec.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6A41B42C80100CE72DB /* qrdec.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-logical-op-parentheses -Wno-tautological-compare -Wno-bitwise-op-parentheses -Wno-logical-not-parentheses -Wno-unreachable-code"; }; };
+		794CA6DB1B42C80100CE72DB /* qrdectxt.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6A61B42C80100CE72DB /* qrdectxt.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-logical-op-parentheses -Wno-tautological-compare"; }; };
+		794CA6DC1B42C80100CE72DB /* rs.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6A71B42C80100CE72DB /* rs.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-logical-op-parentheses -Wno-tautological-compare"; }; };
+		794CA6DD1B42C80100CE72DB /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6A91B42C80100CE72DB /* util.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-logical-op-parentheses -Wno-tautological-compare"; }; };
 		794CA6DE1B42C80100CE72DB /* refcnt.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6AC1B42C80100CE72DB /* refcnt.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses"; }; };
-		794CA6DF1B42C80100CE72DB /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6AE1B42C80100CE72DB /* scanner.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-tautological-compare"; }; };
-		794CA6E01B42C80100CE72DB /* symbol.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6B01B42C80100CE72DB /* symbol.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses"; }; };
+		794CA6DF1B42C80100CE72DB /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6AE1B42C80100CE72DB /* scanner.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-logical-op-parentheses -Wno-tautological-compare"; }; };
+		794CA6E01B42C80100CE72DB /* symbol.c in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6B01B42C80100CE72DB /* symbol.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-shift-op-parentheses -Wno-logical-op-parentheses -Wno-tautological-compare"; }; };
 		794CA6E11B42C80100CE72DB /* ZBarCameraSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6B51B42C80100CE72DB /* ZBarCameraSimulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-shorten-64-to-32 -Wno-protocol"; }; };
 		794CA6E21B42C80100CE72DB /* ZBarCaptureReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6B71B42C80100CE72DB /* ZBarCaptureReader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-shorten-64-to-32 "; }; };
 		794CA6E31B42C80100CE72DB /* ZBarCVImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 794CA6B91B42C80100CE72DB /* ZBarCVImage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-shorten-64-to-32 "; }; };
@@ -51,7 +51,7 @@
 		794CA6ED1B42C83A00CE72DB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794CA6EC1B42C83A00CE72DB /* AVFoundation.framework */; };
 		794CA6EF1B42C83F00CE72DB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794CA6EE1B42C83F00CE72DB /* CoreMedia.framework */; };
 		794CA6F11B42C84500CE72DB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794CA6F01B42C84500CE72DB /* CoreVideo.framework */; };
-		794CA6F31B42C85200CE72DB /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 794CA6F21B42C85200CE72DB /* libiconv.dylib */; };
+		7978178E1CBCD30900408912 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7978178D1CBCD30900408912 /* libiconv.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,7 +154,7 @@
 		794CA6EC1B42C83A00CE72DB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		794CA6EE1B42C83F00CE72DB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		794CA6F01B42C84500CE72DB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
-		794CA6F21B42C85200CE72DB /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		7978178D1CBCD30900408912 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,7 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				794CA6F31B42C85200CE72DB /* libiconv.dylib in Frameworks */,
+				7978178E1CBCD30900408912 /* libiconv.tbd in Frameworks */,
 				794CA6F11B42C84500CE72DB /* CoreVideo.framework in Frameworks */,
 				794CA6EF1B42C83F00CE72DB /* CoreMedia.framework in Frameworks */,
 				794CA6ED1B42C83A00CE72DB /* AVFoundation.framework in Frameworks */,
@@ -182,7 +182,7 @@
 		794CA64A1B42C7E500CE72DB = {
 			isa = PBXGroup;
 			children = (
-				794CA6F21B42C85200CE72DB /* libiconv.dylib */,
+				7978178D1CBCD30900408912 /* libiconv.tbd */,
 				794CA6F01B42C84500CE72DB /* CoreVideo.framework */,
 				794CA6EE1B42C83F00CE72DB /* CoreMedia.framework */,
 				794CA6EC1B42C83A00CE72DB /* AVFoundation.framework */,
@@ -399,7 +399,7 @@
 		794CA64B1B42C7E500CE72DB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Fujun;
 				TargetAttributes = {
 					794CA6521B42C7E500CE72DB = {
@@ -554,6 +554,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -618,11 +619,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "ZBar-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifujun.zbar-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -631,11 +636,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = "ZBar-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifujun.zbar-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -653,6 +662,7 @@
 				);
 				INFOPLIST_FILE = "ZBar-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifujun.zbar-ios.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZBar-iOS.app/ZBar-iOS";
 			};
@@ -668,6 +678,7 @@
 				);
 				INFOPLIST_FILE = "ZBar-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ifujun.zbar-ios.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZBar-iOS.app/ZBar-iOS";
 			};
